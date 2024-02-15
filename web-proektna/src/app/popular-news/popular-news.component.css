@@ -1,0 +1,72 @@
+.popular-news {
+    display: flex;
+    height: 400px; /* Set a fixed height for the container */
+    width: 100%;
+    margin-top: 20px;
+}
+
+.main-news {
+    background-color:beige;
+    width: 790px; /* Occupy 60% of the width */
+    height: 400px; /* Set a fixed height */
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+.right-container {
+    display: flex;
+    width: 600px; /* Occupy 40% of the width */
+    height: 400px; /* Set a fixed height */
+   
+}
+
+.second-news {
+    background-color: beige;
+    width: 500px; /* Occupy full width */
+    height: 195px; /* Set a fixed height */
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.third-news {
+    background-color: beige;
+    width: 500px; /* Occupy full width */
+    height: 195px; /* Set a fixed height */
+    border: 1px solid black;
+}
+
+.main-news img{
+    height: 300px;
+    width: 750px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+
+}
+.main-news h2{
+    margin-left: 5px;
+}
+
+.second-news img{
+    height: 100px;
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.second-news h2{
+    margin-left: 5px;
+}
+
+.third-news img{
+    height: 100px;
+    width: 200px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.third-news h2{
+    margin-left: 5px;
+}

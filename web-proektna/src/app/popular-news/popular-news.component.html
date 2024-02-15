@@ -1,0 +1,19 @@
+<div class="popular-news">
+    <div class="main-news" *ngFor="let newsItem of news">
+      <img [src]="newsItem.imageUrl" *ngIf="newsItem.priority === 1">
+      <h2>{{ newsItem.title }}</h2>
+    </div>
+    <div class="right-conatiner">
+      <!-- Assuming you want to display news with priority 1 here, update if necessary -->
+      <div class="second-news" *ngFor="let newsItem of news2">
+        <img [src]="newsItem.imageUrl" *ngIf="newsItem.priority === 2">
+        <h2>{{newsItem.title}}</h2>
+      </div>
+      <!-- Assuming you want to display news with priority 2 here, update if necessary -->
+      <div class="third-news" *ngFor="let newsItem of news3">
+        <img [src]="newsItem.imageUrl" *ngIf="newsItem.priority === 3">
+        <h2>{{newsItem.title}}</h2>
+      </div>
+    </div>
+  </div>
+  

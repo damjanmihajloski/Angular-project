@@ -1,0 +1,85 @@
+header {
+    display: flex;
+    background-color: bisque;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.header-container{
+    display: inline;
+}
+
+.header-options {
+    display: flex;
+}
+.navigations{
+    display: flex;
+    font-weight:100;
+    margin-left: 600px;
+    padding-top: 28px;
+}
+
+.navigations li{
+    display: flex;
+    padding-right: 35px;
+    font-size: 22px;
+}
+
+.logo-name{
+    display: flex;
+    margin-top: 5px;
+    
+}
+
+.N{
+    display: flex;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 30px;
+    background-color: aqua;
+
+}
+.B{
+    margin-right: 7px;
+    display: flex;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 30px;
+    background-color: aqua;
+
+}
+
+.T{
+    display: flex;
+    margin-right: 7px;
+    padding-right: 18px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+    font-size: 30px;
+    background-color: burlywood;
+}
+
+/* ul li{
+    display: flex;
+    margin-right: 20px;
+    padding-right: 40px ;
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 25px;
+} */
+
+a:hover{
+    color: black;
+}
+
+.logo{
+    display: flex;
+    justify-content: left;
+}
