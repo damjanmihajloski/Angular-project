@@ -1,0 +1,21 @@
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #7E848F;
+  
+    border-top: 1px solid black;
+    padding: 20px 0;
+    height: 100px;
+  }
+  
+  .footer-section h3 {
+    margin: 0 0 10px 0;
+    color: black; 
+  }
+  
+  .footer-section p {
+    margin: 5px 0;
+    color: #333; 
+  }
+  

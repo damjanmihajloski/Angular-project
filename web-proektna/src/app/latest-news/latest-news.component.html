@@ -1,0 +1,11 @@
+<h1>Latest News</h1>
+<div class="most-popular-container">
+    <div class="news-item" *ngFor="let newsItem of topNews">
+      <img [src]="newsItem.imageUrl">
+      <div class="news-content">
+        <h3>{{ newsItem.title }}</h3>
+        <p>{{ newsItem.date | date: 'longDate' }}</p>
+        <button class="read-more">more</button>
+      </div>
+    </div>
+  </div>

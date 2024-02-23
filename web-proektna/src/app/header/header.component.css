@@ -1,6 +1,6 @@
 header {
     display: flex;
-    background-color: bisque;
+    background-color: #7E848F;
 }
 
 li a {
@@ -40,7 +40,7 @@ li a {
     padding-top: 18px;
     padding-bottom: 18px;
     font-size: 30px;
-    background-color: aqua;
+    background-color: #879FC7;
 
 }
 .B{
@@ -51,7 +51,7 @@ li a {
     padding-top: 18px;
     padding-bottom: 18px;
     font-size: 30px;
-    background-color: aqua;
+    background-color: #879FC7;
 
 }
 
@@ -63,20 +63,15 @@ li a {
     padding-bottom: 18px;
     padding-left: 18px;
     font-size: 30px;
-    background-color: burlywood;
+    background-color: #76A4F5;
 }
 
-/* ul li{
-    display: flex;
-    margin-right: 20px;
-    padding-right: 40px ;
-    font-size: 20px;
-    font-weight: 100;
-    padding-top: 25px;
-} */
+a {
+    color:  black;
+}
 
 a:hover{
-    color: black;
+    color: white;
 }
 
 .logo{

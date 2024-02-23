@@ -1,0 +1,14 @@
+<h1>Business news</h1>
+<div class="tech-news-container-wrapper">
+    <div class="buss-news-container">
+      <div class="news-item" *ngFor="let newsItem of bussNews">
+        <img [src]="newsItem.imageUrl">
+        <h2>{{ newsItem.title }}</h2>
+        <button class="read-more">more</button>
+      </div>
+    </div>
+    <button class="next-button" (click)="scrollNews()">Next
+    
+    </button>
+  </div>
+  
